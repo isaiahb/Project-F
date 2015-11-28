@@ -1,0 +1,21 @@
+<div class="row">
+	<div class="col-xs-12 col-xs-push-1">
+		<h1 class="col-xs-push-1" >
+			Workouts
+			<a href="#/newWorkout" class="btn btn-primary">create a workout</a>
+		</h1>
+	</div>
+</div>
+
+<div class="row workout-group" ng-repeat="workout in workouts">
+	<div class="col-xs-12 btn-group btn-group-lg" role="group" aria-label="...">
+		<button type="button" class="col-xs-8 col-xs-push-1 btn btn-default">{{workout.name}}</button>
+		<button type="button" class="col-xs-push-1 btn btn-warning">Edit</button>
+	</div>
+</div>
+
+<style>
+	.workout-group {
+		padding-bottom: 10px;
+	}
+</style>

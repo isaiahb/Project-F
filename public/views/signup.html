@@ -1,0 +1,23 @@
+<div class = "col-sm-6 col-sm-offset-3">
+	<h1><span class="fa fa-sign-in"></span>Signup</h1>
+	<div ng-show="message.length > 0" class="ng-hide">
+		<div class="alert alert-danger">{{message}}</div>
+	</div>
+	<!-- Login form-->
+	<form action="/">
+		<div class="form-group">
+			<label>Email</label>
+			<input type="test" class="form-control" ng-model="email">
+		</div>
+		<div class="form-group">
+			<label>Password</label>
+			<input type="text" class="form-control" ng-model="password">
+		</div>
+		
+		<button type="button" class="btn" ng-click="submit()">Signup</button>
+	</form>
+	
+	<hr>
+	<p>Have an account? <a href="#/login">Login</a></p>
+</div>
+

@@ -1,0 +1,21 @@
+{
+  "name": "node-token-jwt",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.4.1",
+    "mongoose": "^4.2.6",
+    "morgan": "^1.6.1",
+	"method-override" : "~2.0.2",
+	"passport" : "~0.1.17",
+	"passport-local" : "~0.1.6",
+	"passport-facebook" : "~1.0.2",
+	"passport-twitter" : "~1.0.2",
+	"passport-google-oauth" : "~0.1.5",
+	"connect-flash" : "~0.1.1",
+	"bcrypt-nodejs" : "latest",
+	"express-session": "~1.0.0"
+  }
+}
